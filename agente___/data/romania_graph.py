@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+romania_graph = {
+    'Arad':        ['Zerind', 'Sibiu', 'Timișoara'],
+    'Zerind':      ['Arad', 'Oradea'],
+    'Oradea':      ['Zerind', 'Sibiu'],
+    'Sibiu':       ['Arad', 'Oradea', 'Fagaras', 'Rimnicu'],
+    'Fagaras':     ['Sibiu', 'Bucarest'],
+    'Rimnicu':     ['Sibiu', 'Pitesti', 'Craiova'],
+    'Pitesti':     ['Rimnicu', 'Craiova', 'Bucarest'],
+    'Craiova':     ['Drobeta', 'Rimnicu', 'Pitesti'],
+    'Drobeta':     ['Mehadia', 'Craiova'],
+    'Mehadia':     ['Lugoj', 'Drobeta'],
+    'Lugoj':       ['Timișoara', 'Mehadia'],
+    'Timișoara':   ['Arad', 'Lugoj'],
+    'Bucarest':    ['Fagaras', 'Pitesti', 'Giurgiu', 'Urziceni'],
+    'Giurgiu':     ['Bucarest'],
+    'Urziceni':    ['Bucarest', 'Hirsova', 'Vaslui'],
+    'Hirsova':     ['Urziceni', 'Eforie'],
+    'Eforie':      ['Hirsova'],
+    'Vaslui':      ['Urziceni', 'Iasi'],
+    'Iasi':        ['Vaslui', 'Neamt'],
+    'Neamt':       ['Iasi'],
+}
