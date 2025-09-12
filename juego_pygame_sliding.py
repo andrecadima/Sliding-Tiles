@@ -86,7 +86,7 @@ def draw_board(screen, font, state, n, info=None):
         overlay_lines = [
             f"R: resolver (A* + Linear Conflict)",
             f"N: sugerir 1 paso (Greedy + LC)",
-            f"A: animar plan   S: barajar",
+            f"",
             f"Estado objetivo: {goal_canon(n)}",
             f"Algoritmo: {info.get('algo','-')}  Heurística: {info.get('heur','-')}",
             f"Pasos: {info.get('pasos','-')}  Tiempo(ms): {info.get('ms','-')}  Expandidos: {info.get('exp','-')}",
