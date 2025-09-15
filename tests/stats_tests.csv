@@ -1,0 +1,25 @@
+algo,metric,h1,h2,n,test,stat,p,effect
+a*,b_eff,hamming,linear_conflict,1000,Wilcoxon (Shapiro p=5.297530885576426e-07),W=0.000,3.3258460190866374e-165,effect size: n/a
+a*,b_eff,hamming,manhattan,1000,Wilcoxon (Shapiro p=1.8448225428841368e-13),W=0.000,3.3258460190866374e-165,effect size: n/a
+a*,b_eff,manhattan,linear_conflict,1000,Wilcoxon (Shapiro p=3.68118020711271e-13),W=701.000,3.428091506424255e-160,effect size: n/a
+a*,expandidos,hamming,linear_conflict,1000,Wilcoxon (Shapiro p=3.973640700988663e-37),W=0.000,3.3257262514341343e-165,effect size: n/a
+a*,expandidos,hamming,manhattan,1000,Wilcoxon (Shapiro p=3.6513986276904568e-37),W=0.000,3.325724380098521e-165,effect size: n/a
+a*,expandidos,manhattan,linear_conflict,1000,Wilcoxon (Shapiro p=6.844536342798946e-39),W=289.000,9.656931826751339e-161,effect size: n/a
+a*,ms,hamming,linear_conflict,1000,Wilcoxon (Shapiro p=8.585897369322242e-38),W=49.000,3.85293392681931e-165,effect size: n/a
+a*,ms,hamming,manhattan,1000,Wilcoxon (Shapiro p=1.0164181077483623e-37),W=0.000,3.325859118934513e-165,effect size: n/a
+a*,ms,manhattan,linear_conflict,1000,Wilcoxon (Shapiro p=4.243342437275814e-28),W=88534.000,4.0594021312153107e-70,effect size: n/a
+a*,pasos,hamming,linear_conflict,1000,paired t-test (Shapiro p=1),t=nan,,Cohen d=nan
+a*,pasos,hamming,manhattan,1000,paired t-test (Shapiro p=1),t=nan,,Cohen d=nan
+a*,pasos,manhattan,linear_conflict,1000,paired t-test (Shapiro p=1),t=nan,,Cohen d=nan
+greedy,b_eff,hamming,linear_conflict,1000,Wilcoxon (Shapiro p=4.825190396969142e-09),W=67919.000,2.0829902657870627e-88,effect size: n/a
+greedy,b_eff,hamming,manhattan,1000,Wilcoxon (Shapiro p=1.1460987604040862e-10),W=139644.000,2.3587507756923114e-33,effect size: n/a
+greedy,b_eff,manhattan,linear_conflict,1000,Wilcoxon (Shapiro p=1.6479307542985736e-08),W=136721.000,5.810211961191341e-32,effect size: n/a
+greedy,expandidos,hamming,linear_conflict,1000,Wilcoxon (Shapiro p=1.4175189390629633e-09),W=340.500,1.9605132594043828e-164,effect size: n/a
+greedy,expandidos,hamming,manhattan,1000,Wilcoxon (Shapiro p=0.0004779734523800034),W=32923.000,1.074475273822774e-124,effect size: n/a
+greedy,expandidos,manhattan,linear_conflict,1000,Wilcoxon (Shapiro p=2.7614077266495147e-25),W=5986.000,9.783463532156988e-154,effect size: n/a
+greedy,ms,hamming,linear_conflict,1000,Wilcoxon (Shapiro p=0.0036721435980093787),W=12115.000,8.670715787008949e-150,effect size: n/a
+greedy,ms,hamming,manhattan,1000,Wilcoxon (Shapiro p=0.005925988038636135),W=75649.000,1.9968027583933435e-81,effect size: n/a
+greedy,ms,manhattan,linear_conflict,1000,Wilcoxon (Shapiro p=3.417890333788782e-15),W=78666.500,1.0612070356355927e-78,effect size: n/a
+greedy,pasos,hamming,linear_conflict,1000,Wilcoxon (Shapiro p=1.7277870709423435e-13),W=6711.500,5.071626165769605e-154,effect size: n/a
+greedy,pasos,hamming,manhattan,1000,Wilcoxon (Shapiro p=6.380772693961727e-08),W=90372.000,2.993511579937019e-64,effect size: n/a
+greedy,pasos,manhattan,linear_conflict,1000,Wilcoxon (Shapiro p=3.1108234217262057e-09),W=26427.500,6.459972511578144e-115,effect size: n/a

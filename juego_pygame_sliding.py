@@ -12,13 +12,13 @@ from agente___.algorithms.heuristics import (
 from agente___.algorithms.npuzzle_utils import generar_estado, es_soluble
 
 # ============ CONFIGURACIÓN ============
-N = 6                                  # tamaño del tablero NxN
+N = 5                                  # tamaño del tablero NxN
 TILE_SIZE = 100                        # px por casilla
 GAP = 4                                # separación entre casillas
 MARGIN = 20                            # margen exterior
 FONT_SIZE = 20
 FPS = 60
-ANIM_DELAY_MS = 120                    # ms entre pasos de animación
+ANIM_DELAY_MS = 120                   # ms entre pasos de animación
 
 # Colores
 BG = (245, 246, 248)

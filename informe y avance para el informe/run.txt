@@ -1,0 +1,3 @@
+python juego_pygame_sliding.py
+
+python .\practica_sliding_benchmark.py --n 3 --count 1000 --shuffle 100 --out "resultsbenchmark.csv"
